@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:proyecto1erparcial/KitOffline/galeria.dart';
-import 'package:proyecto1erparcial/KitOffline/imc.dart';
-import 'package:proyecto1erparcial/KitOffline/juego_par_impar.dart';
-import 'package:proyecto1erparcial/KitOffline/notas_rapidas.dart';
+import 'package:proyecto1erparcial/galeria.dart';
+import 'package:proyecto1erparcial/CalculadoraIMC.dart';
+import 'package:proyecto1erparcial/juego_par_impar.dart';
+import 'package:proyecto1erparcial/notas_rapidas.dart';
 import '../main.dart';
 
 class KitOffline extends StatelessWidget {

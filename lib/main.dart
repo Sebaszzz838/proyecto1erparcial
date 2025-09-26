@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:proyecto1erparcial/KitOffline/galeria.dart';
-import 'package:proyecto1erparcial/KitOffline/imc.dart';
-import 'package:proyecto1erparcial/KitOffline/notas_rapidas.dart';
+import 'package:proyecto1erparcial/galeria.dart';
+import 'package:proyecto1erparcial/CalculadoraIMC.dart';
+import 'package:proyecto1erparcial/notas_rapidas.dart';
 
 // Importar pantallas de la aplicación
-import 'Practicas_Previas/Formulario.dart';
-import 'Practicas_Previas/practica3.dart';
-import 'Practicas_Previas/practica4.dart';
-import 'Practicas_Previas/juego.dart';
+import 'Formulario.dart';
+import 'practica3.dart';
+import 'practica4.dart';
+import 'juego.dart';
 
-import 'Hubs/kitoffline.dart';
-import 'Ajustes/ajustes.dart';
-import 'Hubs/hub_practicas.dart';
+import 'kitoffline.dart';
+import 'ajustes.dart';
+import 'hub_practicas.dart';
 
 // Notificador global para control del tema (claro/oscuro/sistema)
 final ValueNotifier<ThemeMode> themeNotifier = ValueNotifier(ThemeMode.system);
